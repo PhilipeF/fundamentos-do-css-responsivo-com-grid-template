@@ -26,6 +26,7 @@ header {
 .submenu {
     display: none;
     border: 1px solid red;
+    background-color: #fff;
     position: absolute;
     left: 0;
     width: 300px;
@@ -35,7 +36,7 @@ header {
 .menu > li {
     float: left;
     list-style: none;
-    padding: 16px;
+    padding: 16px;  
     border-top: 4px solid transparent;
     position: relative;
 }
