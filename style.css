@@ -24,11 +24,6 @@ header {
     margin-bottom: 56px;
 }
 
-.botao-menu {
-    display: none;
-}
-
-
 .submenu {
     display: none;
     border: 1px solid red;
@@ -171,5 +166,28 @@ aside .noticia {
         padding: 8px;
 
         border: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        max-width: 90%;
+    }
+    .botao-menu {
+        display: none;
+    }
+
+    .destaque .noticia a {
+        font-size: 1.5em;
+    }
+
+    .noticias {
+        grid-template-columns: repeat(2, 49%);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .botao-menu {
+        display: none;
     }
 }
