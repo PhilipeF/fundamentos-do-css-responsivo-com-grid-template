@@ -140,6 +140,10 @@ aside .noticia {
         position: relative;
         border: none;
     }
+
+    .menu {
+        display: none;
+    }
     
     .menu > li {
         clear: both;        
@@ -149,4 +153,19 @@ aside .noticia {
         display: block;
         padding: 8px;
     }
+
+    .abrir-menu {       
+        display: flex; 
+        justify-content: center;
+        margin-top: 16px;  
+        margin-bottom: 16px;  
+    }
+
+    .abrir-menu button {
+        background: #ccc;
+        padding: 8px;
+
+        border: none;
+    }
+
 }
