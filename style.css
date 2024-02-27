@@ -24,6 +24,11 @@ header {
     margin-bottom: 56px;
 }
 
+.botao-menu {
+    display: none;
+}
+
+
 .submenu {
     display: none;
     border: 1px solid red;
@@ -154,18 +159,17 @@ aside .noticia {
         padding: 8px;
     }
 
-    .abrir-menu {       
+    .botao-menu {       
         display: flex; 
         justify-content: center;
         margin-top: 16px;  
         margin-bottom: 16px;  
     }
 
-    .abrir-menu button {
+    .botao-menu button {
         background: #ccc;
         padding: 8px;
 
         border: none;
     }
-
 }
