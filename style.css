@@ -129,4 +129,24 @@ aside .noticia {
     aside {
         padding-left: 0;
     }
+
+    header div.container {
+        flex-direction: column;
+    }
+
+    .submenu {
+        display: block;
+        width: 100%;
+        position: relative;
+        border: none;
+    }
+    
+    .menu > li {
+        clear: both;        
+    }   
+    
+    .submenu li {
+        display: block;
+        padding: 8px;
+    }
 }
